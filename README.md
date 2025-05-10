@@ -22,9 +22,9 @@ Olá! Eu sou **Alison Eleotério**, Desenvolvedor Web Full Stack/Backend, multi-
 
 Se você gostou deste projeto ou deseja aprender mais como criar e administrar seus próprios projetos, siga-me nas minhas redes sociais para mais conteúdos:
 
-- **Instagram:** [@aalisonzz](https://www.instagram.com/aalisonzz/)
+- **Instagram:** [@eleodev](https://www.instagram.com/eleodev/)
 - **LinkedIn:** [Alison Eleotério](https://www.linkedin.com/in/alisoneleoterio/)
-- **GitHub:** [Meu GitHub](https://github.com/alisoneleoterio/)
+- **GitHub:** [alisoneleoterio](https://github.com/alisoneleoterio/)
 
 ## 🎁 Tem ideias ou houve algum problema?
 
