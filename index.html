@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Devotional</title>
+
+    <link rel="icon" href="./assets/img/bb-icon.jpg">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsividade.css">
+
+    <!-- BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous">
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!--BOTÃO VOLTAR AO TOPO -->
+    <div id="backToTop" class="fixed-button">
+        <i class="bi bi-chevron-up"></i>
+    </div>
+
+    <!-- CONTAINER GERAL -->
+    <div class="container">
+
+        <!-- HEADER -->
+        <header class="header">
+            <div class="logo">
+                <a href="#inicio">
+                    <img src="assets/img/icon-logo.jpeg" alt="Logo da Página">
+                </a>
+            </div>
+            <div class="menu">
+                <label class="hamburger">
+                    <input type="checkbox" id="menuToggle">
+                    <svg viewBox="0 0 32 32">
+                        <path class="line line-top-bottom"
+                            d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22">
+                        </path>
+                        <path class="line" d="M7 16 27 16"></path>
+                    </svg>
+                </label>
+            </div>
+            <div class="menu-aberto">
+                <nav class="nav-menu">
+                    <a href="#inicio">INÍCIO</a>
+                    <a href="#skills">DEVOCIONAIS</a>
+                    <a href="#servicos">OUTROS LINKS</a>
+                    <a href="#footer">CONTATO</a>
+                </nav>
+            </div>
+        </header>
+        <!-- FIM HEADER -->
+
+        <!-- INÍCIO -->
+        <main id="inicio" class="inicio">
+            <div class="container-inicio">
+                <div class="conteudo-inicio" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="titulo-inicio">
+                        <h1>Daily Devotional</h1>
+                        <h1 class="destaque-inicio">Devocionais, músicas e muito mais!</h1>
+                    </div>
+                    <div class="paragrafo-inicio" data-aos="fade-up" data-aos-delay="70" data-aos-duration="1000">
+                        <p>Um projeto para te ajudar e inspirar. Vamos Lá?</p>
+                    </div>
+                    <a href="./assets/Bíblia em um ano - 2025.pdf" target="_blank">
+                        <button class="cta" data-aos="fade-up" data-aos-delay="150" data-aos-duration="1000">
+                            <span>Baixar Plano de Leitura Anual</span>
+                            <svg width="15px" height="10px" viewBox="0 0 13 10">
+                                <path d="M1,5 L11,5"></path>
+                                <polyline points="8 1 12 5 8 9"></polyline>
+                            </svg>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </main>
+        <!-- FIM INÍCIO -->
+
+        <!-- DEVOCIONAIS -->
+        <section id="skills" class="skills">
+            <div class="container-skills" data-aos="fade-up" data-aos-duration="1000">
+                <div class="headline-skills">
+                    <div class="text-headline-skills" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+                        <h2>Devocionais e Reflexões</h2>
+                        <p>Clique no título desejado e boa leitura!</p>
+                    </div>
+                </div>
+                <div class="conteudo-skills">
+
+                    <a href="devocional1.html" target="_blank">
+                        <div class="box-skills" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+                            <i class="bi bi-stop-circle"></i>
+                            <h3>Terminando Bem</h3>
+                            <p>31/12/2024</p>
+                        </div>
+                    </a>
+                    
+                    <a href="devocional2.html" target="_blank">
+                        <div class="box-skills" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+                            <i class="bi bi-stop-circle"></i>
+                            <h3>Quem és tu, Senhor?</h3>
+                            <p>14/01/2025</p>
+                        </div>
+                    </a>
+
+                    <a href="devocional3.html" target="_blank">
+                        <div class="box-skills" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+                            <i class="bi bi-stop-circle"></i>
+                            <h3>Recomeço</h3>
+                            <p>17/01/2025</p>
+                        </div>
+                    </a>
+
+                    <a href="#skills">
+                        <div class="box-skills" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+                            <i class="bi bi-stop-circle"></i>
+                            <h3>Em breve...</h3>
+                            <p>Em breve...</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- FIM DEVOCIONAIS -->
+
+        <!-- OUTROS LINKS -->
+        <section id="servicos" class="servicos">
+            <div class="container-servicos">
+                <div class="headline-servicos" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="titulo-servicos">
+                        <h1>Acesse:</h1>
+                    </div>
+                    <div class="descricao-servicos" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+                        <p>Descubra novos conteúdos.</p>
+                        <p>Vídeos, pregações, músicas, podcasts</p>
+                        <p>E muito mais!!!</p>
+                    </div>
+                </div>
+                <div class="servicos-cards">
+                    <!-- LINK 1 -->
+                    <a href="https://www.youtube.com/watch?v=CUS9G7LAHzk" target="_blank">
+                        <div class="card-servicos-left" data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000">
+                            <div class="card-titulo">
+                                <h4>Quem eu sou em Cristo?</h4>
+                                <p>Pr. Mateus Vendramini</p>
+                            </div>
+                            <div class="card-icon"><i class="bi bi-person-raised-hand"></i></div>
+                        </div>
+                    </a>
+
+                    <!-- LINK 2 -->
+                    <a href="https://www.youtube.com/watch?v=FSdsZlaj4r0" target="_blank">
+                        <div class="card-servicos" data-aos="fade-left" data-aos-delay="70" data-aos-duration="1000">
+                            <div class="card-titulo">
+                                <h4>A Reforma</h4>
+                                <p>Redenção Plena Music</p>
+                            </div>
+                            <div class="card-icon"><i class="bi bi-music-note-beamed"></i></div>
+                        </div>
+                    </a>
+
+                    <!-- LINK 3 -->
+                    <a href="https://www.youtube.com/watch?v=ZMd36EPcRXc&t=739s" target="_blank">
+                        <div class="card-servicos-left" data-aos="fade-right" data-aos-delay="90" data-aos-duration="1000">
+                            <div class="card-titulo">
+                                <h4>Como ler a Bíblia em 2025</h4>
+                                <p>JesusCopy Podcast</p>
+                            </div>
+                            <div class="card-icon"><i class="bi bi-hourglass-split"></i></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- FIM OUTROS LINKS -->
+
+        <!-- COMPLEMENTO DEUS É BOM -->
+        <section id="free-your-mind" class="free-your-mind">
+            <div class="container-free-your-mind" data-aos="fade-up" data-aos-duration="1000">
+                <div class="line-container" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+                    <span> DEUS </span>
+                    <span class="line"></span>
+                </div>
+                <div class="line-container center" data-aos="fade-up" data-aos-delay="70" data-aos-duration="1000">
+                    <span class="line"></span>
+                    <span> É </span>
+                    <span class="line"></span>
+                </div>
+                <div class="line-container right" data-aos="fade-up" data-aos-delay="90" data-aos-duration="1000">
+                    <span class="line"></span>
+                    <span> BOM </span>
+                </div>
+            </div>
+        </section>
+        <!-- FIM COMPLEMENTO -->
+
+        <!-- FOOTER -->
+        <footer class="footer" id="footer">
+            <div class="container-footer">
+                <div class="footer-column logo-column">
+                    <img src="assets/img/bb-icon.jpg" alt="Imagem de bíblia minimalista">
+                </div>
+                <div class="footer-column menu-column">
+                    <nav class="footer-nav">
+                        <a href="#inicio">Início</a>
+                        <a href="#skills">Devocionais</a>
+                        <a href="#servicos">Outros Links</a>
+                    </nav>
+                </div>
+                <div class="footer-column social-column">
+                    <ul class="social-links">
+                        <li><a href="https://github.com/alisoneleoterio" target="_blank"><i class="bi bi-github"></i> GitHub</a></li>
+                        <li><a href="https://instagram.com/aalisonzz" target="_blank"><i class="bi bi-instagram"></i> Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-column credits-column">
+                <a href="https://forms.gle/RKvm9maaCZwGyAcL9" target="_blank">
+                    <p>DEIXE SEU FEEDBACK AQUI!</p>
+                </a>
+                <p>&copy; 2025 - Todos os direitos reservados.</p>
+                <p>Desenvolvido por Alison Eleotério │Dev.</p>
+            </div>
+        </footer>
+        <!-- FIM FOOTER -->
+         <!-- STYLE FOOTER -->
+        <style type="text/css">
+            .footer {
+                background-color: var(--color-black);
+                width: 100%;
+                padding: 3rem 1rem;
+                color: var(--color-white);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 2rem;
+                }
+
+            .container-footer {
+                width: 100%;
+                max-width: 1400px;
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+                gap: 1rem;
+            }
+
+            .footer-column {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .logo-column {
+                align-items: flex-start;
+            }
+
+            .logo-column img {
+                width: 100px;
+            }
+
+            .menu-column {
+                text-align: center;
+            }
+
+            .footer-nav {
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+                gap: 0.5rem;
+            }
+
+            .footer-nav a {
+                text-decoration: none;
+                color: var(--color-white);
+                font-size: 1.2rem;
+                transition: color 0.3s ease;
+            }
+
+            .footer-nav a:hover {
+                color: var(--color-destaque1);
+            }
+
+            .social-column {
+                text-align: right;
+            }
+
+            .social-links {
+                list-style: none;
+                display: flex;
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+
+            .social-links a {
+                text-decoration: none;
+                color: var(--color-white);
+                font-size: 1.2rem;
+                display: flex;
+                align-items: center;
+                transition: color 0.3s ease;
+            }
+
+            .social-links a i {
+                margin-right: 0.5rem;
+            }
+
+            .social-links a:hover {
+                color: var(--color-destaque1);
+            }
+
+            .credits-column {
+                text-align: right;
+                font-size: 0.9rem;
+            }
+
+            .credits-column p {
+                margin: 0.2rem 0;
+            }
+
+            /*** RESPONSIVIDADE ***/
+            @media (max-width: 768px) {
+                h1 {
+                    font-size: 2rem;
+                }
+
+                p {
+                    font-size: 1rem;
+                }
+            }
+        </style>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Inicialização do AOS -->
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- JavaScript -->
+    <script src="assets/js/header.js"></script>
+    <script src="assets/js/actionButton.js"></script>
+    <script src="assets/js/menu.js"></script>
+    <script src="assets/js/slideSobre.js"></script>
+    <script src="assets/js/slidePortfolio.js"></script>
+
+</body>
+</html>
